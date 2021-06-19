@@ -1,0 +1,215 @@
+.container{
+	width: 1130px;
+	margin: 0 auto;
+}
+
+.content{
+	width: 100%;
+	background: url(../static/images/operatbg.jpg) no-repeat center;
+}
+.content  .login-box{
+	margin: 20px 0;
+	width: 410px;
+}
+
+.content .account,.ewm{
+	font-size: 23px;
+	color: #FF6600;
+}
+
+.logo a img{
+	margin: 30px 0 0 45px;
+    background-image: none;
+    height: 47px;
+    width: auto;
+}
+.content .account {
+	padding: 32px 100px 26px 67px;
+}
+
+.content .ewm{
+	padding: 32px 67px 26px 42px;
+}
+.content .shu{
+	position: absolute;
+	left: 200px;
+	top: 0;
+	height: 25px;
+	margin-top: 32px;
+	border: 1px solid #e0e0e0;
+}
+.content .form-box{
+	text-align: center;
+}
+.content input{
+	margin: 0 auto;
+	margin-bottom: 15px;
+	display: block;
+	width: 314px;
+	font-size: 14px;
+	padding: 14px;
+	border: 1px solid #E0E0E0;
+	outline: 0;
+}
+.form-box .acc img{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 14px;
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+.form-box .acc{
+	text-align: left;
+	padding-top: ;
+	vertical-align: middle;
+	color: #000000;
+	font-size: 14px;
+	padding-left: 30px;
+	display: none;
+}
+
+.content .login-btn{
+	padding: 15px;
+	width: 345px;
+	border: 0px solid #E6E6E6;
+	font-size: 14px;
+	background-color: #ff6700;
+	color: white;
+	margin : 10px 0;
+}
+
+.content a:hover{
+	color: #FF6600;
+}
+.content .phone{
+	display: block;
+	color:#ff6700;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.form-box .log{
+	text-align: center;
+	width: 410px;
+	font-size: 14px;
+	padding-bottom: 143px;
+}
+.form-box .lgin{
+	padding: 5px 5px 5px 136px;
+}
+.form-box .su{
+	margin-top: 6px;
+	height: 14px;
+	border: 1px solid #E0E0E0;
+}
+
+.form-box .forget{
+	padding: 5px 136px 5px 5px;
+}
+
+.form-box .other{
+	width: 256px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form-box .other .qq{
+	background-color: #0288d1;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin: 0px 17px;
+} 
+
+.form-box .other .weibo{
+	background-color: #D32f2f;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin: 0 17px;
+} 
+
+.form-box .other .zfb{
+	background-color: #00aaee;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin: 0px 17px;
+} 
+
+.form-box .other .wechat{
+	background-color: #00d20d;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin: 0px 17px;
+} 
+
+.form-box .other img{
+	display: block;
+	padding-top: 5px;
+	width: 20px;
+} 
+
+.footer{
+	margin: 20px;
+	text-align: center;
+}
+.footer .harf{
+	margin-bottom:10px ;
+}
+
+.cont>li{
+	display: none;
+}
+
+.cont>li:first-child{
+	display: block;
+}
+
+.account-box .mi-phone{
+	text-align: center;
+	margin-top: 70px;
+	font-size: 15px;
+}
+
+.account-box img{
+	display: block;
+	padding: 15px 0;
+	width: 182px;
+	margin: 0 auto;
+}
+
+.account-box .mi-shop{
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.account-box span{
+	color: #FF6700;
+}
+
+.account-box .mi-set{
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 129px;
+}
+
+
+
+.error .input-control {
+	border-color: #FF6700;
+}
+
+
+.success .input-control{
+	border-color: lightgreen;
+}
+
+.success .msg {
+	display: block;
+	color: lightgreen;
+}

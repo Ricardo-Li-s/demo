@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PCAS (Province City Area Selector 省、市、地区联动选择JS封装类) Ver 2.01 数据压缩完整版 程序制作/版权所有:崔永祥(333)</title>
+</head>
+
+<body>
+    <style>
+    a,
+    body,
+    select {
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    a,
+    pre {
+        color: #808080;
+    }
+    
+    body {
+        background: #efefef;
+    }
+    </style>
+    <script language="javascript" src="PCASClass.js"></script>
+    <fieldset style="padding:5px;">
+        <legend>省市联动</legend>
+        出生地：
+        <select name="P1"></select>
+        <select name="C1"></select>
+        <br> 所在地：
+        <select name="P2"></select>
+        <select name="C2"></select>
+        <br> 工作地：
+        <select name="P3"></select>
+        <select name="C3"></select>
+        <br>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset style="padding:5px;">
+        <legend>省市地区联动</legend>
+        出　　 生 　地：
+        <select name="province3"></select>
+        <select name="city3"></select>
+        <select name="area3"></select>
+    </fieldset>
+    <script language="javascript" defer>
+
+    new PCAS("province3", "city3", "area3");
+    new PCAS("province4", "city4", "area4", "江苏省");
+    new PCAS("province5", "city5", "area5", "江苏省", "苏州市");
+    new PCAS("province6", "city6", "area6", "江苏省", "苏州市", "沧浪区");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/help-center.css" />
+		<link rel="stylesheet" href="../css/gogo.css">
+		<title>我的购物车</title>
+		<script src="../js/gogo.js"></script>
+		<script src="../js/jquery.min.js"></script>
+	</head>
+	<body>
+			<div class="header">
+				<div class="container">
+					
+					<div class="header-title" id="J_miniHeaderTitle">
+						<h2 style="font-size: 30px;">我的购物车</h2>
+					</div>
+					
+					<div class="topbar-info login" id="J_userInfo">
+						<a class="link" href="./login.html">登录</a><span class="sep">|</span><a class="link" href="./register.html">注册</a></div>
+				</div>
+			</div>
+			<div id="car" class="car">
+				<div class="head_row hid">
+					<div class="check left"> <i onclick="checkAll()">√</i></div>
+					<div class="img left">&nbsp;&nbsp;全选</div>
+					<div class="name left">商品名称</div>
+					<div class="price left">单价</div>
+					<div class="number left">数量</div>
+					<div class="subtotal left">小计</div>
+					<div class="ctrl left">操作</div>
+				</div>
+			</div>
+			<div id="sum_area">
+				<div id="pay">去结算</div>
+				<div id="pay_amout">合计：<span id="price_num">0</span>元</div>
+			</div>
+			<div id="box">
+				<h2 class="box_head"><span>买购物车中商品的人还买了</span></h2>
+				<ul>
+				</ul>
+			</div>
+		</body>
+</html>
+<script src="../js/checkLogin2.js"></script>
+<script src="../js/cookie2.js"></script>
+<script src="../js/layer/layer2.js"></script>
